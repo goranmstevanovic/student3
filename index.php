@@ -146,25 +146,25 @@ if(isset($_REQUEST['del_id'])){
                         <td>
                             <?php
                                 if($id_school_board==1){
-                                    if($prosek>=7){echo"<img src=\"image/ok.png\" style='width:48px;'>";}
+                                    if($prosek>=7){echo"<img src=\"ok.png\" style='width:48px;'>";}
                                     else{
                                         if ( $prosek != "neocenjen" ) {
-                                            echo "<img src=\"image/nook.jpg\" style='width:48px;'>";
+                                            echo "<img src=\"nook.jpg\" style='width:48px;'>";
                                         }
                                     }
                                 }else {
                                     if ($id_school_board == 2) {
                                         if ($prosek >= 8) {
-                                            echo "<img src=\"image/ok.png\" style='width:48px;'>";
+                                            echo "<img src=\"ok.png\" style='width:48px;'>";
                                         } else {
                                             if ( $prosek != "neocenjen" ) {
-                                                echo "<img src=\"image/nook.jpg\" style='width:48px;'>";
+                                                echo "<img src=\"nook.jpg\" style='width:48px;'>";
                                             }
                                         }
 
                                     }
                                 }
-                                if($prosek=="neocenjen"){echo"<img src=\"image/unrates.jpg\" style='width:48px;'>";}
+                                if($prosek=="neocenjen"){echo"<img src=\"unrates.jpg\" style='width:48px;'>";}
                             ?>
                            <!-- <img src="image/ok.png" style='width:48px;'> -->
                         </td>
